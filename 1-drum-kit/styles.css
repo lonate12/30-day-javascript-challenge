@@ -1,0 +1,25 @@
+.key {
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid black;
+  padding: 15px 10px 10px 10px;
+  min-width: 76px;
+  min-height: 76px;
+  text-transform: uppercase;
+  transition: all .07s;
+  border-radius: 4px;
+}
+
+.playing {
+  transform: scale(1.1);
+  border: 2px solid yellow;
+}
+
+kdb {
+  display: block;
+  font-size: 20px;
+}
+
+.sound {
+  text-align: center;
+}
