@@ -1,0 +1,36 @@
+body {
+  background-color: orange;
+}
+
+.clock {
+  height: 500px;
+  width: 500px;
+  border: 8px solid white;
+  border-radius: 250px;
+}
+
+.clock-face {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.hand {
+  height: 8px;
+  background-color: black;
+  width: 200px;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  position: absolute;
+  right: 242px;
+  bottom: 242px;
+  transition: all 0.5s;
+}
+
+.hour-hand {
+  width: 100px;
+}
+
+.second-hand {
+  height: 4px;
+}
