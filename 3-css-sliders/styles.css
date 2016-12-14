@@ -1,0 +1,13 @@
+:root {
+  --base-color: #000000;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+.image {
+  display: block;
+  margin: 10px auto;
+  padding: var(--spacing);
+  background: var(--base-color);
+  filter: blur(var(--blur));
+}
