@@ -1,3 +1,7 @@
 body {
   background-color: light-grey;
 }
+
+#draw {
+  border: 1px solid black;
+}

@@ -1,0 +1,22 @@
+.viewer {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 4px 4px 0px 0px;
+  padding-top: 5px;
+}
+
+.player__controls {
+  background-color: black;
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 5px;
+}
+
+.icon {
+  font-size: 15px;
+  color: white;
+}
+
+.play {
+  font-size: 20px;
+  color: white;
+}

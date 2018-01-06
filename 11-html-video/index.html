@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Custom HTML 5 Player</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://use.fontawesome.com/536de10d84.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Custom HTLM 5 Video Player</h1>
+      <div class="row">
+        <div class="player col-xs-10 col-xs-offset-1">
+          <div class="row">
+            <video class="col-xs-12 viewer" src="video.mov" autoplay></video>
+          </div>
+          <div class="row">
+            <div class="player__controls col-xs-12">
+              <div class="progress">
+                <div class="progress-bar"></div>
+              </div>
+              <div class="play toggle col-xs-2" title="Toggle Play"><i class="fa fa-play-circle-o" aria-hidden="true"></i></div>
+              <input type="range" name="volume" class="player__slider col-xs-3" min="0" max="1" step="0.05" value="1">
+              <input type="range" name="playbackRate" class="player__slider col-xs-3" min="0.5" max="2" step="0.1" value="1">
+              <div data-skip="-10" class="col-xs-2 icon"><i class="fa fa-angle-double-left" aria-hidden="true"></i> 10s</div>
+              <div data-skip="25" class="col-xs-2 icon">25s <i class="fa fa-angle-double-right" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
